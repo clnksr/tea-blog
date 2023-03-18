@@ -1,0 +1,17 @@
+.form-box {
+  display: flex;
+  padding: 2rem;
+}
+.article-form {
+  display: flex;
+  align-items: right;
+  flex-direction: column;
+  width: 50%;
+}
+.form-submit-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
