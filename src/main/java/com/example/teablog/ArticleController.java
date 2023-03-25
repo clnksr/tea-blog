@@ -45,9 +45,9 @@ public class ArticleController {
     }
 
     @PostMapping
-    ResponseEntity<Article> updateArticle(@RequestBody Article newArticle){
+    ResponseEntity<Article> createArticle(@RequestBody Article newArticle){
 
-        Article article = service.updateArticle(newArticle);
+        Article article = service.saveArticle(newArticle);
         return ResponseEntity.ok(article);
     }
 }

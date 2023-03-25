@@ -13,14 +13,11 @@ const ArticleView = () => {
     const getArticle = async () => {
         const response: Response = await fetch("http://localhost:8080/api/articles/" + articleId);
         const data: IArticle = await response.json();
-
         setArticle(data);
-        console.log("THE DATA IS HERE " + data)
     }
 
     useEffect(() => {
         getArticle();
-
     }, [])
 
 

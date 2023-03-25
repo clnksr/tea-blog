@@ -26,11 +26,7 @@ const ArticleList = () => {
 
     return (
         <>
-            <div className="title-text-box">
-                <h1 className='first-title'>Welcome to the magic world of<br />leaves and hot water!</h1>
-                <h2 className='second-title'>I'm glad you're here. Start with this:</h2>
-                <img src={image} alt="a hand holding a cup of matcha tea" />
-            </div>
+
 
             <div className="article-container">
                 {articles.length === 0 && "Loading ..."}
