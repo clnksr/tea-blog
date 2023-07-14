@@ -8,11 +8,8 @@ import java.util.Optional;
 
 @Repository
 public class ArticleRepo {
-
     @Autowired
     IArticleRepo repo;
-
-
     public List<Article> getAllArticles(){
         return (List<Article>) repo.findAll();
     }
@@ -21,9 +18,6 @@ public class ArticleRepo {
         Optional<Article> byId = repo.findById(id);
         return byId.orElse(null);
     }
-
-
-
 
     public void deleteArticleById(String id){
         repo.deleteById(id);
@@ -36,6 +30,5 @@ public class ArticleRepo {
     public Article saveArticle(Article newArticle){
         return repo.save(newArticle);
     }
-
 
 }
