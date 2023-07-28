@@ -1,11 +1,17 @@
+.top-bar {
+  overflow: hidden;
+  padding: 1rem;
+}
+.logo {
+  float: left;
+  text-align: left;
+}
+.menu {
+  float: right;
+  text-align: right;
+}
 .title-text-box {
   text-align: center;
-}
-.top-bar {
-  text-align: center;
-  width: 100%;
-  font-size: 2rem;
-  background-color: #d1d0ce;
 }
 
 .first-title {

@@ -37,10 +37,10 @@ const ArticleView = () => {
                 <h1>{article?.title}</h1>
                 <h3>{article?.intro}</h3>
                 <p>{article?.body}</p>
-                <div className="action-buttons-view">
+               {/*  <div className="action-buttons-view">
                     <button onClick={handleDelete}>Delete article</button>
                     <Link to={'/articles/' + articleId + '/edit'}><button>Edit article</button></Link>
-                </div>
+                </div> */}
             </div>
 
 
