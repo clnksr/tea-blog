@@ -13,7 +13,8 @@ public class Article {
     private String intro;
     @Column(columnDefinition="TEXT")
     private String body;
-    private String author;
+
+    private String category;
     private String createdOn;
 
     public Article() {
@@ -43,12 +44,12 @@ public class Article {
         this.body = body;
     }
 
-    public String getAuthor() {
-        return author;
+    public String getCategory() {
+        return category;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
+    public void setCategory(String category) {
+        this.category = category;
     }
 
     public String getCreatedOn() {

@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <div className="top-bar">
         <div className="logo">leafy 🍃</div>
-        <div className="menu">Blog -- About the Author</div>
+        <div className="menu">Kategorien -- About the Author</div>
       </div>
       <div className="title-text-box">
         <h1 className="first-title">

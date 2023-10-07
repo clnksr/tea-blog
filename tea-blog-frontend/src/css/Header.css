@@ -16,7 +16,7 @@
 
 .first-title {
   font-size: 3em;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .second-title {
@@ -28,6 +28,6 @@
 
 @media screen and (min-width: 1008px) {
   .title-text-box {
-    margin-top: 8rem;
+    margin-top: 6rem;
   }
 }
