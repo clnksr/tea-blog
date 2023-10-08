@@ -17,6 +17,7 @@ function App() {
         <Header />
 
         <Routes>
+
           <Route path="/articles/new" element={<ArticleCreate />} />
           <Route path="/articles/:articleId" element={<ArticleView />} />
           <Route path='/' element={<ArticleList />} />
