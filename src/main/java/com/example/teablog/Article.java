@@ -11,6 +11,7 @@ public class Article {
     private Long id;
     private String title;
     private String intro;
+
     @Column(columnDefinition="TEXT")
     private String body;
 
