@@ -4,7 +4,8 @@ server:
   port: 8080
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/blog
+#    url: jdbc:postgresql://localhost:5432/blog
+    url: jdbc:postgresql://tea-blog-server.postgres.database.azure.com:5432/?user=vaobmawius&password=6RlN3G0SM89OnbKLoliE&sslmode=require
     username:
     password:
   jpa:
